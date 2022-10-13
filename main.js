@@ -1,5 +1,5 @@
 function convert(){
     let txt=document.getElementById("input").value;
-    txt.toLowerCase();
+    txt=txt.toLowerCase();
     alert(txt);
 }
