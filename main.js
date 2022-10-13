@@ -1,5 +1,7 @@
 function convert(){
-    let txt=document.getElementById("input").value;
+    let output=document.getElementById("output");
+    let input=document.getElementById("input").value
+    let txt=input;
     txt=txt.toLowerCase();
-    alert(txt);
+    output.value=txt;
 }
