@@ -1,4 +1,5 @@
-
 function convert(){
-    console.log("bla");
+    let txt=document.getElementById("input").value;
+    txt.toLowerCase();
+    alert(txt);
 }
