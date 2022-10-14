@@ -15,3 +15,7 @@ function convert(){
         output.innerText+=buchstaben[index];
     });
 }
+function copy(){
+    const copyText=document.getElementById("output").innerText;
+    navigator.clipboard.writeText(copyText);
+}
