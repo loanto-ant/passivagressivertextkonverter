@@ -17,5 +17,6 @@ function convert(){
 }
 function copy(){
     const copyText=document.getElementById("output").innerText;
+    console.log(copyText);
     navigator.clipboard.writeText(copyText);
 }
